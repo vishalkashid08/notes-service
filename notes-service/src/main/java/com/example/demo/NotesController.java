@@ -52,7 +52,7 @@ public class NotesController {
             note.setUserId(userId);
 
             // IMPORTANT: this URL must match your static config
-            note.setFileUrl("http://localhost:8084/uploads/" + fileName);
+            note.setFileUrl("http://3.110.167.15:8084/uploads/" + fileName);
 
             return service.saveNotes(note);
 
